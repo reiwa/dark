@@ -1,5 +1,7 @@
 # @reiwa/dark
 
+[![npm version](https://badge.fury.io/js/%40reiwa%2Fdark.svg)](https://badge.fury.io/js/%40reiwa%2Fdark)
+
 ## Installation
 
 ```
