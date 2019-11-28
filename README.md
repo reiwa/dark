@@ -20,3 +20,10 @@ const App: FunctionComponent = () => {
   return <p>{darkMode ? 'Dark Mode' : 'Light Mode'}</p>
 }
 ```
+
+## Publish
+
+```
+$ npm version patch
+$ npm publish
+```
