@@ -1,6 +1,48 @@
 {
-  "name": "useDark",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "name": "@reiwa/dark",
+  "version": "1.0.2",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^12.11.7",
+    "@types/react": "^16.9.13",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "@typescript-eslint/typescript-estree": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.0.9",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^2.0.0",
+    "react": "^16.12.0",
+    "typescript": "^3.6.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  }
 }
